@@ -1239,4 +1239,16 @@ export const component: Registry = [
             },
         ],
     },
+    {
+        name: "tgs-button",
+        type: "registry:component",
+        dependencies: [],
+        registryDependencies: ["button"],
+        files: [
+            {
+                path: "components/kokonutui/tgs-button/tgs-button.tsx",
+                type: "registry:component",
+            }
+        ],
+    },
 ];
